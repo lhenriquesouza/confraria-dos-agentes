@@ -759,6 +759,47 @@ Use a skill prisma: crie um dashboard rápido com os dados de preço coletados
 
 ---
 
+---
+
+## ⏱️ Módulo 9 — Bônus: Ecossistema de Ferramentas (15 min)
+
+> Você tem seu agente pessoal. Mas para cada tipo de trabalho, existe uma ferramenta especializada.
+> Este módulo é um **mapa do ecossistema** — você saber qual ferramenta existe para cada problema.
+
+### 9.1 O Mapa
+
+| Ferramenta | Propósito | Tipo | Público | Diferencial |
+|---|---|---|---|---|
+| **Hermes Agent** ⭐ | Seu assistente pessoal | Harness open source | Geral | Multi-canal, skills, cron, MCP, memória |
+| **Manus.AI** | Agente autônomo geral | Cloud AI Agent | Geral | Navega na web, opera apps, executa tarefas longas |
+| **Replit** | IDE + Deploy no navegador | Cloud IDE + AI | Devs | Programa, roda e publica sem sair do browser |
+| **Lovable** | Criar apps com texto | AI App Builder | Não-técnicos | Descrição em português → app full-stack |
+| **Bolt.new** | Apps no browser em tempo real | AI + Sandbox | Devs | Prompt → código rodando, visível na hora |
+| **v0 (Vercel)** | Gerar UI com IA | AI + React | Devs front | Prompt → componente React/Next.js |
+| **Base44** | Internal tools sem esforço | Low-code builder | Equipes internas | Conecta banco de dados → UI admin pronta |
+| **N8N** | Automação de workflows | Open source | Geral | Conecta APIs visualmente (o Zapier que você controla) |
+| **Windmill** | Plataforma de automação | Open source | Devs + Ops | Scripts Python/TS viram workflows e cron jobs |
+
+### 9.2 Como Escolher
+
+**Regra de bolso:**
+
+| Você quer... | Use |
+|---|---|
+| Um assistente que lembra de você, trabalha sozinho e responde no celular | **Hermes Agent** |
+| Criar um app do zero sem instalar nada | **Lovable** ou **Bolt.new** |
+| Automatizar processos entre sistemas (CRM, email, planilha) | **N8N** ou **Windmill** |
+| Fazer um componente de UI bonito rápido | **v0** |
+| Programar e publicar direto do navegador | **Replit** |
+| Um agente que navega sites por você | **Manus.AI** |
+| Uma tela de admin conectada ao banco em minutos | **Base44** |
+
+### 9.3 Não Existe Bala de Prata
+
+Cada ferramenta resolve **um problema específico**. O poder não está em dominar uma — está em **saber qual usar para cada situação**. O Hermes é seu canivete suíço. Essas outras são as lâminas especializadas que você chama quando o trabalho exige.
+
+---
+
 ## ⏱️ Fechamento (15 min)
 
 ### Recap dos Entregáveis
@@ -797,10 +838,11 @@ Cada um define o que vai delegar para o agente:
 | 6 | Skills (Prisma + Matt Pocock) + /goal + /delegate_task | 2h |
 | 7 | MCP | 25 min |
 | — | Intervalo | 10 min |
-| 8 | Autonomia: Cron | 30 min |
-| | Fechamento | 15 min |
-| **Total conteúdo** | | **~7h10** |
-| **Total com intervalos** | | **~8h50 (9h às 17h50)** |
+|| 8 | Autonomia: Cron | 30 min |
+|| 9 | **Bônus:** Ecossistema de Ferramentas | 15 min |
+|| | Fechamento | 15 min |
+|| **Total conteúdo** | | **~7h25** |
+|| **Total com intervalos** | | **~9h05 (9h às 18h05)** |
 
 > Sem intervalo entre Módulos 1 e 5 (manhã inteira corrida, ~3h35 sem pausa formal). O único intervalo do dia agora é à tarde, entre os Módulos 7 e 8. Módulo 5 ganhou +15 min pra dar folga real na instalação do Hermes; Módulo 6 dobrou de tamanho (1h15 → 2h) com mais tempo prático em `/goal` e `/delegate_task`.
 
